@@ -17,7 +17,7 @@ const reducer=(state,action)=>{
         throw new Error('unexpected action');
     }
 }
-
+console.log('git check');
 const Card=(props)=>{
     const [count,dispatch]=useReducer(reducer,1)
 
